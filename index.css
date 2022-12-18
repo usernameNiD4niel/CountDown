@@ -25,10 +25,13 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: var(--fs);
     text-align: center;
     filter: drop-shadow(2px 2px 4px rgb(144, 144, 144));
+    background: -webkit-linear-gradient(rgb(229, 12, 124), rgb(42, 3, 77));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container > ul {
@@ -51,6 +54,9 @@ h1 {
 .container > ul > li > p {
     font-weight: bold;
     font-size: 2.7rem;
+    background: -webkit-linear-gradient(rgb(83, 8, 245), rgb(3, 216, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-//modifies css file
+/* modifies css file */
