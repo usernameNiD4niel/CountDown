@@ -53,10 +53,18 @@ h1 {
 
 .container > ul > li > p {
     font-weight: bold;
+    text-align: center;
     font-size: 2.7rem;
     background: -webkit-linear-gradient(rgb(83, 8, 245), rgb(3, 216, 106));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+div.name {
+    text-align: center;
+    height: 0.85em;
+    width: 40%;
+    background: linear-gradient(180deg, rgb(170, 47, 47), rgb(84, 27, 215));
 }
 
 /* modifies css file */
