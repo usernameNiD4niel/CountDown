@@ -14,8 +14,8 @@ setInterval(()=> {
     const seconds = Math.floor(remaining) % 60;
     
     day.innerText = (days < 10) ? `0${days}` : days;
-    hour.innerText = hours;
-    minute.innerText = minutes;
+    hour.innerText = (hours < 10) ? `0${hours}` : hours;
+    minute.innerText = (minutes < 10) ? `0${minutes}` : minutes;
     second.innerText = (seconds < 10) ? `0${seconds}` : seconds;
 
 }, 1000);
